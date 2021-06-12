@@ -3,7 +3,13 @@ var org,nw,rmv;
 var ndx,k,l,m,n,o,p,q,r,s;
 org=[k,l,m,n,o,p,q,r,s];
 var bestscore=0;
-
+bs=document.createElement('div');
+bs.innerHTML="best score:"+bestscore+"";
+bs.style.width="100px"
+bs.style.height="50px"
+bs.style.backgroundColor="yellow"
+bs.style.textColor="black"
+document.getElementById("bd").appendChild(bs);
 function rdmclr()
 {
   if(count>0)
